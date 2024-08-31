@@ -1,0 +1,604 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+@import url(/assets/css/root.css);
+
+.yantramanav {
+    font-family: "Yantramanav", sans-serif;
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+/* --------------Nav-bar------------ */
+.nav-btn {
+    min-width: 118px;
+    min-height: 46px;
+    border-radius: 23px;
+    border: none;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.bg-hero-img {
+    background-image: url(/assets/images/PNG-1/hero-section-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* ===============Section-1==================== */
+.main-title {
+    max-width: 893px;
+    margin-top: 173px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-title-para {
+    line-height: 25.94px;
+    max-width: 765px;
+    margin-top: 18px;
+}
+
+.get-started-btn {
+    min-width: 172px;
+    min-height: 52px;
+    border-radius: 28px;
+    border: none;
+}
+
+.item-bar {
+    max-width: 962px;
+    border-radius: 150px;
+    padding: 17px 0px 17px 0px;
+    margin-top: 140px;
+}
+
+.bar-btn {
+    border-radius: 150px;
+    border: none;
+    min-width: 185px;
+    min-height: 70px;
+}
+
+.card-text {
+    margin-left: 15px;
+}
+
+.card-subtitle {
+    opacity: 70%;
+}
+
+.border-right {
+    border-right: 3px solid white;
+}
+
+/* ==================Section-2=========================== */
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -70%);
+    cursor: pointer;
+}
+
+.lcd-img {
+    margin-top: 199px;
+}
+
+.section-2-svg {
+    margin-top: 137px;
+}
+
+.card-para {
+    max-width: 197px;
+}
+
+.card {
+    min-width: 260px;
+    border: 1px solid #2C49FE;
+    border-radius: 5px;
+    margin-top: 46px;
+    padding: 45px 20px 17px 20px;
+}
+
+.lower-card {
+    max-width: 260px;
+    border: 1px solid #2C49FE;
+    border-radius: 5px;
+    margin-top: 36px;
+    padding: 45px 20px 17px 20px;
+    margin-left: 135px;
+}
+
+.circle-svg {
+    top: -39px;
+    left: 90px;
+}
+
+.inside-circle-1 {
+    left: 112px;
+    top: -16px;
+}
+
+.inside-circle-2 {
+    left: 117px;
+    top: -12px;
+}
+
+.top-cards {
+    display: flex;
+    gap: 30px;
+}
+
+.card:hover {
+    background-color: #2C49FE;
+    transition: all 400ms linear;
+}
+
+.lower-card:hover {
+    background-color: #2C49FE;
+    transition: all 400ms linear;
+}
+
+.card:hover .card-title {
+    color: white;
+}
+
+.card:hover .card-para {
+    color: white;
+}
+
+.lower-card:hover .card-title {
+    color: white;
+}
+
+.lower-card:hover .card-para {
+    color: white;
+}
+
+/* =========================Section-3========================================== */
+.bg-section-3 {
+    background-image: url(/assets/images/PNG-1/baloon-girl.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 73px;
+    position: relative;
+    z-index: 0;
+}
+
+.bg-section-3::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #2C49FE;
+    opacity: 80%;
+    top: 0;
+    z-index: -1;
+}
+
+.section-3-title {
+    max-width: 708px;
+    line-height: 62.4px;
+    padding-top: 50px;
+}
+
+.section-3-para {
+    line-height: 24px;
+    max-width: 765px;
+    padding-top: 40px;
+}
+
+.section-3-card {
+    max-width: 920px;
+    padding-top: 78px;
+}
+
+/* ======================Section-4======================================= */
+.section-4-title {
+    line-height: 65.52px;
+    max-width: 338px;
+}
+
+.section-4-svg {
+    margin-top: 158px;
+    margin-bottom: 9px;
+}
+
+.section-4-para {
+    line-height: 24px;
+    max-width: 543px;
+    margin-top: 8px;
+}
+
+.section-4-card {
+    border-radius: 5px;
+    box-shadow: 2px 9px 32px 0px #0000000F;
+    padding: 10px 11px 24px 13px;
+    margin-top: 127px;
+}
+
+.date {
+    margin-top: 13px;
+    margin-left: 11px;
+}
+
+.section-4-card-title {
+    margin-left: 12px;
+    color: black;
+}
+
+.section-4-card-para {
+    line-height: 24px;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+
+.stripes-3 {
+    margin-top: 214px;
+    width: 100%;
+}
+
+.signup-form {
+    max-width: 574px;
+    margin-left: 100px;
+}
+
+.form-box {
+    margin-bottom: 16px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #00000066;
+    resize: none;
+    padding: 10px 17px;
+}
+
+.form-btn {
+    border: none;
+    width: 100%;
+    padding: 11px;
+    border-radius: 23px;
+    margin-top: 21px;
+    margin-bottom: 90px;
+}
+
+::placeholder {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000B2;
+}
+
+/* ==============================Footer-section============================== */
+.main-logo-footer {
+    margin-top: 81px;
+}
+
+.footer-para {
+    max-width: 346px;
+    line-height: 21px;
+    margin-top: 36px;
+    margin-bottom: 24px;
+}
+
+.show-more-box {
+    background: #2D3CAE87;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.show-more {
+    max-width: 43px;
+
+}
+
+.footer-link-title {
+    margin-top: 126px;
+}
+
+.copyright {
+    margin-top: 96px;
+    padding-bottom: 25px;
+}
+
+.img-box-top {
+    gap: 18px;
+}
+
+.img-box-bottom {
+    gap: 18px;
+    margin-top: 13px;
+}
+
+/* ========================Responsive====================== */
+
+@media (max-width:992px) {
+    .border-md-0 {
+        border-right: none !important;
+    }
+
+    .item-bar {
+        justify-content: center;
+    }
+
+    .bar-btn {
+        margin-top: 30px;
+    }
+
+    .border-right {
+        border-right: 3px solid white;
+    }
+
+    .card-text::after {
+        content: none;
+    }
+
+    .nav-logo {
+        font-size: var(--fs-5xl);
+    }
+
+    .main-title {
+        font-size: var(--fs-7xl)
+    }
+
+    .section-2-title {
+        font-size: var(--fs-6xl)
+    }
+
+    .section-3-title {
+        font-size: var(--fs-6xl)
+    }
+
+    .section-4-title {
+        font-size: var(--fs-6xl)
+    }
+
+    .join-us {
+        font-size: var(--fs-6xl)
+    }
+
+    .sign-up {
+        font-size: var(--fs-4xl)
+    }
+
+    .main-title-para {
+        font-size: var(--fs-xl);
+    }
+
+    .title-svg {
+        margin-right: 25px;
+    }
+
+    .top-cards {
+        gap: 30px;
+    }
+
+    .lower-card {
+        margin-left: 135px;
+    }
+
+    .card-box {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .section-4-card {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .signup-form {
+        margin-left: auto;
+    }
+
+    .footer-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-para {
+        text-align: center;
+    }
+
+    .footer-list {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-img-card {
+        justify-content: center;
+    }
+
+    .footer-link-title {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width:768px) {
+    .border-right {
+        border-right: none;
+    }
+
+    .bar-btn {
+        margin-top: 50px;
+    }
+
+    .card-3 {
+        margin-top: 40px;
+    }
+
+    .card-text::after {
+        content: "";
+        position: absolute;
+        width: 1px;
+        height: 205px;
+        background-color: white;
+        left: 50%;
+        top: 104px;
+        transform: translateY(-50%);
+    }
+
+    .card-text::before {
+        content: "";
+        position: absolute;
+        width: 540px;
+        height: 1px;
+        background-color: white;
+        left: 270px;
+        top: 50%;
+        transform: translateX(-50%);
+    }
+
+    .nav-logo {
+        font-size: var(--fs-4xl);
+    }
+
+    .main-title {
+        font-size: var(--fs-6xl)
+    }
+
+    .section-2-title {
+        font-size: var(--fs-5xl)
+    }
+
+    .section-3-title {
+        font-size: var(--fs-5xl)
+    }
+
+    .section-4-title {
+        font-size: var(--fs-5xl)
+    }
+
+    .join-us {
+        font-size: var(--fs-5xl)
+    }
+
+    .sign-up {
+        font-size: var(--fs-3xl)
+    }
+
+    .main-title-para {
+        font-size: var(--fs-lg);
+    }
+
+    .logo-img {
+        scale: 0.9;
+    }
+
+    .title-svg {
+        width: 300px;
+        margin-right: 10px;
+    }
+
+    .top-cards {
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+}
+
+@media (max-width:576px) {
+    .card-text::after {
+        content: none;
+    }
+
+    .card-text::before {
+        content: none;
+    }
+
+    .card-2 {
+        margin-top: 40px;
+        margin-right: 8px;
+    }
+
+    .svg-date {
+        margin-right: 5px;
+    }
+
+    .nav-logo {
+        font-size: var(--fs-3xl);
+    }
+
+    .main-title {
+        font-size: var(--fs-5xl);
+        margin-top: 80px;
+    }
+
+    .section-2-title {
+        font-size: var(--fs-4xl)
+    }
+
+    .section-3-title {
+        font-size: var(--fs-4xl)
+    }
+
+    .section-4-title {
+        font-size: var(--fs-4xl)
+    }
+
+    .join-us {
+        font-size: var(--fs-4xl)
+    }
+
+    .sign-up {
+        font-size: var(--fs-2xl)
+    }
+
+    .main-title-para {
+        font-size: var(--fs-md);
+    }
+
+    .logo-img {
+        scale: 0.7;
+    }
+
+    .title-svg {
+        width: 250px;
+    }
+
+    .item-bar {
+        border-radius: 50px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+    }
+
+    .top-cards {
+        flex-wrap: wrap;
+        gap: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .lower-card {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 55px;
+    }
+
+    .low-card {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .section-3-card {
+        flex-wrap: wrap;
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        justify-content: space-evenly;
+        align-items: flex-end;
+    }
+}
