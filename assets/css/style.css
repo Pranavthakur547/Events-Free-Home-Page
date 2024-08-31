@@ -279,6 +279,10 @@
     margin-top: 81px;
 }
 
+.footer-list{
+    cursor: pointer;
+}
+
 .footer-para {
     max-width: 346px;
     line-height: 21px;
